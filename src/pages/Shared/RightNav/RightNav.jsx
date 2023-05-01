@@ -8,8 +8,8 @@ const RightNav = () => {
     return (
         <div>
             <h3>Login With</h3>
-            <Button className='mb-2' variant="outline-primary"><FaGoogle /> Login With Google </Button>
-            <Button variant="outline-secondary"><FaGithub /> Login With Github</Button>
+            <Button className='mb-2 w-100' variant="outline-primary"><FaGoogle /> Login With Google </Button>
+            <Button className='w-100' variant="outline-secondary"><FaGithub /> Login With Github</Button>
             <div className='my-4'>
                 <h4>Find Us On</h4>
                 <ListGroup>
